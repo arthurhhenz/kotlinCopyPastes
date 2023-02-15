@@ -1,3 +1,12 @@
+     
+    /*
+         Function that hides a keyboard
+         https://stackoverflow.com/questions/55505049/how-to-close-the-soft-keyboard-from-a-fragment-using-kotlin
+         
+         Posted in Aug 24th 2017.
+     */
+     
+
     fun Fragment.hideKeyboard() {
         view?.let { activity?.hideKeyboard(it) }
     }
